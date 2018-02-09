@@ -1,6 +1,6 @@
 {
   "name": "serializer-utils",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "",
   "author": {
     "name": "Patrik Šimunič",
@@ -11,8 +11,10 @@
     "type": "git",
     "url": "https://github.com/7h3w4rd0c70r/serializer-utils.git"
   },
-  "main": ".",
-  "scripts": { },
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./bin/build.js"
+  },
   "dependencies": {
     "lodash": "4.17.5"
   }
