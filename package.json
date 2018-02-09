@@ -1,0 +1,14 @@
+{
+  "name": "hide-secrets",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Patrik Šimunič <patriksimunic@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.5"
+  }
+}
