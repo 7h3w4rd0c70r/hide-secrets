@@ -26,7 +26,7 @@ function basePreserve(obj, options) {
             } else if (paths.indexOf(i) < 0) {
                 const newVal = replacedValue;
                 if (usePropType) {
-                    newVal = getTag(val);
+                    newVal = getTag(_obj[i]);
                 }
                 _obj[i] = newVal;
             }
