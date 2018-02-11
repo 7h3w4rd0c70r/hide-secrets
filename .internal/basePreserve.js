@@ -24,7 +24,7 @@ function basePreserve(obj, options) {
             if (_obj[i] instanceof Object) {
                 _obj[i] = basePreserve(_obj[i], options);
             } else if (paths.indexOf(i) < 0) {
-                const newVal = replacedValue;
+                let newVal = replacedValue;
                 if (usePropType) {
                     newVal = getTag(_obj[i]);
                 }
